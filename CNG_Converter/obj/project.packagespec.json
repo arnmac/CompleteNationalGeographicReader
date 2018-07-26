@@ -1,20 +1,24 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\aaron\\RiderProjects\\CNG_Converter\\CNG_Converter\\CNG_Converter.csproj",
+    "projectUniqueName": "/home/aaron/RiderProjects/CompleteNationalGeographicReader/CNG_Converter/CNG_Converter.csproj",
     "projectName": "CNG_Converter",
-    "projectPath": "C:\\Users\\aaron\\RiderProjects\\CNG_Converter\\CNG_Converter\\CNG_Converter.csproj",
-    "outputPath": "C:\\Users\\aaron\\RiderProjects\\CNG_Converter\\CNG_Converter\\obj\\",
+    "projectPath": "/home/aaron/RiderProjects/CompleteNationalGeographicReader/CNG_Converter/CNG_Converter.csproj",
+    "outputPath": "/home/aaron/RiderProjects/CompleteNationalGeographicReader/CNG_Converter/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp2.0"
+      "netcoreapp2.1"
     ],
     "frameworks": {
-      "netcoreapp2.0": {
-        "projectReferences": {}
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/CngImageReader.csproj": {
+            "projectPath": "/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/CngImageReader.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -24,12 +28,12 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.0": {
+    "netcoreapp2.1": {
       "dependencies": {
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.0.0, )",
+          "version": "[2.1.0, )",
           "autoReferenced": true
         }
       },

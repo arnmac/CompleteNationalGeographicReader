@@ -1,4 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using CNG_CngImageReader;
 
 namespace CNG_Converter
 {
@@ -6,8 +9,8 @@ namespace CNG_Converter
     {
         static void Main(string[] args)
         {
-            var inputFile = @"E:\NGM_1996_05_001_4.cng";
-            var outputFile = @"E:\outputfile.jpg";
+            const string inputFile = @"/media/aaron/CNG_DISC1/disc1/images/199x/19960501/NGM_1996_05_040_4.cng"; //@"E:\NGM_1996_05_001_4.cng";
+            const string outputFile = @"outputfile.jpg";
             
             var fileInfo = new FileInfo(inputFile);
             var fileLength = fileInfo.Length;
@@ -16,7 +19,7 @@ namespace CNG_Converter
             {
                 using(var os = new FileStream(outputFile, FileMode.Create, FileAccess.Write))
                 {
-                    var br = new CngImageReader(fs);//new BinaryReader(fs);
+                    var br = new CngImageReader(fs);
 
                     var buffer = br.ReadBytes((int) fileLength);
                     var bw = new BinaryWriter(os);
@@ -28,5 +31,26 @@ namespace CNG_Converter
                 }
             }
         }
+    }
+
+    public class CngDirectory
+    {
+        private static string _directoryFileLocation;
+        
+        public CngDirectory(string fileLocation)
+        {
+            _directoryFileLocation = fileLocation;
+        }
+
+        public List<CngMagazineIssue> GetIssues()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class CngMagazineIssue
+    {
+        public DateTime IssueDate { get; set; }
+        public string ImagePrefix { get; set; }
     }
 }

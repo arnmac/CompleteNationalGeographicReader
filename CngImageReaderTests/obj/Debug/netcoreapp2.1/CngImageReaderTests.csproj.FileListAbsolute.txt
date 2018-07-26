@@ -1,0 +1,17 @@
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.csprojAssemblyReference.cache
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.csproj.CoreCompileInputs.cache
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.AssemblyInfoInputs.cache
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.AssemblyInfo.cs
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CngImageReaderTests.deps.json
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CngImageReaderTests.runtimeconfig.json
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CngImageReaderTests.runtimeconfig.dev.json
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CngImageReaderTests.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CngImageReaderTests.pdb
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.csproj.CopyComplete
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/obj/Debug/netcoreapp2.1/CngImageReaderTests.pdb
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CNG_CngImageReader.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReaderTests/bin/Debug/netcoreapp2.1/CNG_CngImageReader.pdb

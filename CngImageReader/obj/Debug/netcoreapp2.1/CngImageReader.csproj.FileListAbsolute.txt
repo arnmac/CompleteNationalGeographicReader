@@ -1,0 +1,9 @@
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/obj/Debug/netcoreapp2.1/CngImageReader.csprojAssemblyReference.cache
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/obj/Debug/netcoreapp2.1/CngImageReader.csproj.CoreCompileInputs.cache
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/obj/Debug/netcoreapp2.1/CngImageReader.AssemblyInfoInputs.cache
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/obj/Debug/netcoreapp2.1/CngImageReader.AssemblyInfo.cs
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/bin/Debug/netcoreapp2.1/CNG_CngImageReader.deps.json
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/bin/Debug/netcoreapp2.1/CNG_CngImageReader.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/bin/Debug/netcoreapp2.1/CNG_CngImageReader.pdb
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/obj/Debug/netcoreapp2.1/CNG_CngImageReader.dll
+/home/aaron/RiderProjects/CompleteNationalGeographicReader/CngImageReader/obj/Debug/netcoreapp2.1/CNG_CngImageReader.pdb

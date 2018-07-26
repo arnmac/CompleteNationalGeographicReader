@@ -1,11 +1,10 @@
 ﻿using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 
-namespace CNG_Converter
+namespace CNG_CngImageReader
 {
-    internal class CngImageReader : BinaryReader
+    public class CngImageReader : BinaryReader
     {
         private const int XorValue = 239;
 
@@ -50,7 +49,8 @@ namespace CNG_Converter
 
         public override int Read()
         {
-            return this.ReadBytes(1).First();
+            var byteConverted = this.ReadBytes(1).First();
+            return byteConverted;
         }
     }
 }
