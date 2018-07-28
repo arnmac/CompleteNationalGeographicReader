@@ -32,32 +32,4 @@ namespace CNG_Converter
             }
         }
     }
-
-    public class CngDirectory
-    {
-        private static string _directoryFileLocation;
-        
-        public CngDirectory(string fileLocation)
-        {
-            _directoryFileLocation = fileLocation;
-        }
-
-        public List<CngMagazineIssue> GetIssues()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    public class CngMagazineIssue
-    {
-        public DateTime IssueDate { get; set; }
-        public string ImagePrefix { get; set; }
-        public List<CngPageImage> Pages { get; set; }
-    }
-
-    public class CngPageImage
-    {
-        public int PageNumber { get; set; }
-        public string FileName { get; set; }
-    }
 }
