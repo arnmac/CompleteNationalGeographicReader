@@ -52,5 +52,12 @@ namespace CNG_Converter
     {
         public DateTime IssueDate { get; set; }
         public string ImagePrefix { get; set; }
+        public List<CngPageImage> Pages { get; set; }
+    }
+
+    public class CngPageImage
+    {
+        public int PageNumber { get; set; }
+        public string FileName { get; set; }
     }
 }

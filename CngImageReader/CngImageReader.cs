@@ -6,7 +6,7 @@ namespace CNG_CngImageReader
 {
     public class CngImageReader : BinaryReader
     {
-        private const int XorValue = 239;
+        public static int XorValue = 239;
 
         public CngImageReader(Stream input) : base(input)
         {
